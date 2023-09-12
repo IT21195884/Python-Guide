@@ -36,3 +36,21 @@ print(l)
 print(m)
 
 #   +=     ->     i=i+2
+
+#Print()
+    
+    #sep='   '
+
+q,w,a = 10,20,30
+
+print(q,w,a, sep='   ')
+print(q,w,a, sep='******')
+
+
+    #end=''                    *same line
+
+print(q , end='')
+print(w , end='')
+print(a )
+
+
