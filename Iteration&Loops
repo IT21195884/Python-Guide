@@ -20,3 +20,26 @@ for g in range(3):
 
 
 
+
+
+#WHILE LOOP
+
+for t in range(11):
+    print(t)
+
+y=0
+while y<=10:
+    print(y)
+    y=y+1
+
+
+#BREAK
+    #The break statement can be used to break out of a for or while loop before the loop is finished
+
+#CONTINUE
+    #
+
+#PASS
+
+
+
