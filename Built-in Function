@@ -1,0 +1,23 @@
+#int(): Returns the integer form of its argument. 
+x = int(3.5)    #Convert 3.5 into integer->3
+m = int("12")   #Convert string into the integer
+
+
+#float(): Returns the float form of its argument.
+
+
+#str(): Returns the string of its argument.
+
+
+#Bool(): Returns the Boolean value True or False
+bool(2)   #True
+bool(-11) #True
+bool(0)   #False
+
+#chr(): Returns the character for the ASCII value
+    
+
+#ord(): Returns the ASCII value
+
+
+#eval(): Returns the result of evaluating its string argument as any Python expression, including arithmetic and numerical expressions 
