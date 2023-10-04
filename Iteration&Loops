@@ -1,0 +1,22 @@
+#for <variable> in range(<number of times>):
+    #<statement>
+
+
+for count in range(3):      #print Hello , goodbye 3 times
+    print('Hello!') 
+    print('goodbye')
+
+
+for l in range(4,1,-1):
+    print(l, end='')
+
+
+print("\n")
+
+for g in range(3):
+    num= eval(input("Enter Any Number : "))
+    print("The Squared of the number :" +num*num)
+
+
+
+

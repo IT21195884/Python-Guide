@@ -1,0 +1,56 @@
+#strings
+
+#Multiline String  - '''   '''
+#Singleline String - '        '    ,   "     "
+
+t=len('Hi')
+i=len('''To get the length of a string (how many characters it has), use the built-in function len. For example, len('Hello') is 5
+''')
+
+print(t)
+print(i)
+
+print('AB'+'CD')      #      +   concatanation
+print('AB'*10)        #      *8  Multiply String into 8
+
+#Indexing
+
+K = 'Python'
+
+print(K[0])    #First Character of the String
+
+print(K[-1])   #Last Character of the String
+
+
+#Slices
+
+S='ABCDEFGHIJKL'
+
+print(S[2:6])
+print(S[:8])
+print(S[3:])
+print(S[2:9:2])     #Characters 2 to 9 by twos
+print(S[-3:])       #Last 3 Characters
+print(S[:])         #Entire String
+print(S[::-1])      #Reverse
+print(len(S))
+
+
+#RangeFunction
+
+
+for q in range(10):     #COLAN
+    print(q, end=" ")
+    print("\n")
+
+for w in range(2,8):
+    print(w , end=" ")
+    print("\n")
+
+for e in range(2,15,3):     #2 to 15 by twos
+    print(e , end=" ")
+    print("\n")
+
+for r in range(9,3.-1):     #9 to 2 reverse
+    print(r , end=" ")
+    print("\n")
