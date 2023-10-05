@@ -1,0 +1,13 @@
+# 3.Write a python program to read the two numbers and find the largest number.
+
+q = float(input("Enter Any Number for the 1st SLOT :"))
+w = float(input("Enter Any Number for the 2nd SLOT :"))
+
+if q < w:
+    print("Largest Number is in 2nd SLOT, which is "+w)
+
+elif q > w:
+    print("Largest Number is in 1st SLOT, which is "+q)
+
+else:
+    print("Both SLOTs are equal !")

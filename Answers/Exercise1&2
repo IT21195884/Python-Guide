@@ -1,0 +1,13 @@
+# 1.Write a program to read character and get the corresponding ASCII value for the character entered.
+
+x = ord(input("Please Enter Any Character :"))
+print(x)
+
+
+# 2.Write a program to read a number and get the corresponding character from the ASCII table.
+
+y = int(input("Enter Any Number :"))
+#z = chr(y)
+print(chr(y))
+
+

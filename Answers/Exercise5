@@ -1,0 +1,11 @@
+# 5.Write a python program to read a number and display the number as odd or even.
+
+a = int(input("Please Enter Any Number :"))
+
+k = a % 2
+
+if k == 0:
+    print("The Number is EVEN ! ")
+
+else:
+    print("The Number is ODD !")
